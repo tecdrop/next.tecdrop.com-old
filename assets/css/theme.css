@@ -19000,7 +19000,7 @@ Styled shaped wrappers for displaying code and images in a more stylish manner
 }
 .static-rating .voted
 {
-    color: #fc0;
+    color: #ff8200;
 }
 
 .static-rating-sm .star
@@ -19041,11 +19041,11 @@ Styled shaped wrappers for displaying code and images in a more stylish manner
 }
 .rating:hover .over:before
 {
-    color: #fc0;
+    color: #ff8200;
 }
 .rating .voted:before
 {
-    color: #fc0;
+    color: #ff8200;
 }
 
 .rating-lg .star:before
