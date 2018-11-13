@@ -8,3 +8,5 @@ twitter:
   username  : tecdrop
 
 
+plugins:
+  - jekyll-seo-tag

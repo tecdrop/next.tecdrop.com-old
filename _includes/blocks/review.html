@@ -1,0 +1,13 @@
+<div class="card shadow">
+    <blockquote class="blockquote card-body mb-0 py-5 px-lg-5">
+        <div class="icon icon-lg text-primary">
+            <i class="fas fa-quote-left"></i>
+        </div>
+        <h5 class="heading h5">
+            {% if include.url %}<a class="text-dark" href="{{ include.url }}" target="_blank">{% endif %}
+                {{ include.title }}
+            {% if include.url %}</a>{% endif %}
+        </h5>
+        <p class="lead">{{ include.text }}</p>
+    </blockquote>
+</div>
